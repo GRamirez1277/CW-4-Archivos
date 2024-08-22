@@ -49,11 +49,13 @@ public class TestMiFile {
                         mf.tree();
                         break;
                     case 8:
+                        mf.blankText();
                         break;
                     case 9:
-                        mf.writeText(false);
+                        mf.writeText(true);
                         break;
                     case 10:
+                        mf.readText();
                         break;
                 }
             }catch(InputMismatchException e){
